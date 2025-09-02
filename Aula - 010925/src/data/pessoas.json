@@ -1,0 +1,7 @@
+[
+    {"id": 1, "nome": "Helton", "cidade": "Londrina"},
+    {"id": 2, "nome": "Detoni", "cidade": "Maringá"},
+    {"id": 3, "nome": "Dutra", "cidade": "Bandeirantes"},
+    {"id": 4, "nome": "Juliana", "cidade": "Cambé"},
+    {"id": 5, "nome": "Liliane", "cidade": "São Paulo"}
+]
