@@ -1,0 +1,17 @@
+import { createNativeStackNavigator } from "@react-navigation/native-stack"
+
+import LoginScreen from "../screens/LoginScreen";
+import Home from "../screens/HomeScreen";
+
+const Stack = createNativeStackNavigator();
+
+export default function MainStack(){
+    return(
+        <Stack.Navigator
+            initialRouteName="Login"
+        >
+            <Stack.Screen name="Login" component={LoginScreen}/>
+            <Stack.Screen name="Home" component={Home}/>
+        </Stack.Navigator>
+    )
+}
