@@ -1,0 +1,106 @@
+Microsoft Windows [versão 10.0.26200.6899]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\LUCASLANDGRAF\Desktop\node>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (node) <- nome da pasta criada (para seguir em frente é só pressionar enter)
+version: (1.0.0)
+description: projeto para a matéria de Mobile
+entry point: (index.js)
+test command: 
+git repository:
+keywords:
+author: Lucas
+license: (ISC)
+type: (commonjs)
+About to write to C:\Users\LUCASLANDGRAF\Desktop\node\package.json:
+
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "projeto para a matéria de Mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
+
+Is this OK? (yes) yes
+
+npm notice
+npm notice New minor version of npm available! 11.0.0 -> 11.6.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.2
+npm notice To update run: npm install -g npm@11.6.2
+npm notice
+
+C:\Users\LUCASLANDGRAF\Desktop\node>code .
+
+C:\Users\LUCASLANDGRAF\Desktop\node>npm run dev
+
+> node@1.0.0 dev
+> nodemon src/controller/index
+
+'nodemon' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\LUCASLANDGRAF\Desktop\node>npm install nodemon
+
+added 29 packages, and audited 30 packages in 2s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\LUCASLANDGRAF\Desktop\node>npm run dev
+
+> node@1.0.0 dev
+> nodemon src/controller/index
+
+[nodemon] 3.1.10
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node src/controller/index.js`
+Acessando Index
+[nodemon] clean exit - waiting for changes before restart
+
+npm run start
+
+> node@1.0.0 start
+> node src/controller/index
+
+Acessando Index <- essa mensagem só apareceu pq no seu index.js existe o comando console.log("Acessando Index")
+
+C:\Users\LUCASLANDGRAF\Desktop\node>npm install express
+
+added 66 packages, and audited 96 packages in 3s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\LUCASLANDGRAF\Desktop\node>npm install cors
+
+added 2 packages, and audited 98 packages in 891ms
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\LUCASLANDGRAF\Desktop\node>
